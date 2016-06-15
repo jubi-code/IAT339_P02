@@ -15,9 +15,6 @@ body{
 	font-family: Butler;
 	src: url(font/Butler_Black.otf);
 	font-weight: bold;
-
-	font-family: Coves;
-	src: url(font/Coves_Light.otf);
 }
 
 pre {
@@ -82,7 +79,6 @@ ul.mainNavigation a:hover{
 }
 
 .buyButton{
-	font-family: Coves;
 	font-size: 1rem;
 	margin-top: 0.25rem;
 	position: absolute;
@@ -128,14 +124,12 @@ img{
 	height: auto;
 }
 
-h1.display{
-	font-family: Butler;
-	font-size: 1.5em;
-	margin-top: 0;
+#thin{
+	min-width: 100%;
+	max-height: 15em;
 }
 
-p.body{
-	font-family: Coves;
+p{
 	font-size: 1.5em;
 	margin-top: 0;
 	margin-bottom: 3rem;
@@ -180,17 +174,30 @@ h1{
 h2{
 	font-family: Butler;
 	font-size: 2rem;
-	margin-top: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+/*styling for the h2 links on the home page*/
+h2 a{
+	text-decoration: none;
+	color: #153559;
+	text-align: center;
+
+	-webkit-transition: color 0.5s;
+	transition: color 0.5s;
+}
+
+h2 a:hover{
+	color: #D9D2D5;
 }
 
 h3{
-	font-family: Coves;
 	font-size: 1.5rem;
 	margin-top: 0;
 }
 
 p, ol, ul{
-	font-family: Coves;
 	max-width: 75%;
 	font-size: 1.2rem;
 }
@@ -211,6 +218,10 @@ ul li{
 	list-style-position: inside;
 }
 
+a{
+	text-decoration: none;
+}
+
 p a{
 	color: #4C5C7D;
 	font-weight: bold;
@@ -229,7 +240,6 @@ p a:hover{
 
 .simpleButton{
 	margin-top: 1rem;
-	font-family: Coves;
 	font-weight: bold;
 	padding: 1rem;
 	margin-right: 0.5rem;
@@ -248,7 +258,6 @@ p a:hover{
 }
 
 .primaryButton{
-	font-family: Coves;
 	font-weight: bold;
 	padding: 1rem;
 	border-style: solid;
@@ -265,7 +274,6 @@ p a:hover{
 
 .bigButton{
 	margin-top: 1rem;
-	font-family: Coves;
 	font-weight: bold;
 	padding: 1.5rem;
 	margin-right: 0.5rem;
@@ -285,7 +293,6 @@ p a:hover{
 }
 
 .primaryBig{
-	font-family: Coves;
 	padding: 1.5rem;
 	font-size: 1.5rem;
 	font-weight: bold;
@@ -302,7 +309,6 @@ p a:hover{
 }
 
 ul.pagination{
-	font-family: Coves;
 	font-size: 1.25rem;
 	display: inline-block;
 	margin-top: 2rem;
@@ -351,7 +357,6 @@ input[type="submit"]{
 	border-style: solid;
 	border-color: #153559;
 	color: #153559;
-	font-family: Coves;
 	font-weight: bold;
 	font-size: 1.1rem;
 }
@@ -375,7 +380,6 @@ input[type="text"]{
 
 label{
 	display: block;
-	font-family: Coves;
 	font-size: 1.2rem;
 	margin-bottom: 0.25rem;
 	margin-top: 0.75rem;

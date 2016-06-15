@@ -21,6 +21,15 @@
 	max-width: 100%;
 }
 
+/*for the centered material*/
+.grid-row-centered{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	max-width: 100%;
+	justify-content: space-around;
+}
+
 .grid-col-1of5{
 	background-color: #F0F0F0;
 	width: 19.5%;
@@ -86,4 +95,3 @@
 	text-align: center;
 	padding: 1rem 0 1rem 0;
 }
-
