@@ -1,0 +1,408 @@
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Lato, Verdana, sans-serif;
+	max-width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+@font-face{
+	font-family: Butler;
+	src: url(font/Butler_Black.otf);
+	font-weight: bold;
+
+	font-family: Coves;
+	src: url(font/Coves_Light.otf);
+}
+
+pre {
+	margin: 0;
+	margin-top: 1rem;
+	background-color: #F0F0F0;
+	padding-left: 1rem;
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+}
+
+header{
+	background-color: #153559;
+	opacity: 0.8;
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+
+header a.navName{
+	font-family: Butler;
+	margin-bottom: 0.25rem;
+	margin-top: 0.5rem;
+	margin-left: 5%;
+	color: #fff;
+
+	text-decoration: none;
+	-webkit-transition: color 0.5s;
+	transition: color 0.5s;
+}
+
+header a.navName:hover{
+	color: #FFD54F;
+}
+
+header h1{
+	margin: 0;
+}
+
+ul.mainNavigation{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 0;
+	margin-left: 5%;
+}
+
+ul.mainNavigation a{
+	margin-right: 3rem;
+	padding: 0.5rem;
+	text-decoration: none;
+	color: #fff;
+	border-radius: 0.5rem;
+
+	-webkit-transition: color 0.5s;
+	transition: color 0.5s;
+}
+
+ul.mainNavigation a:hover{
+	color: #FFD54F;
+}
+
+.buyButton{
+	font-family: Coves;
+	font-size: 1rem;
+	margin-top: 0.25rem;
+	position: absolute;
+	right: 2%;
+	text-decoration: none;
+	color: white;
+
+	-webkit-transition: color 0.5s;
+	transition: color 0.5s;
+}
+
+.buyButton:hover{
+	color: #FFD54F;
+}
+
+
+ul.navigation{
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 7em;
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+}
+
+ul.navigation a{
+	text-decoration: none;
+	display: block;
+	text-align: right;
+	margin-bottom: 1em;
+	color: darkgray;
+
+	-webkit-transition: color 0.5s;
+	transition: color 0.5s;
+}
+
+ul.navigation a:hover{
+	color: black;
+}
+
+
+h1{
+	margin-top: 2rem;
+	margin-left: 0;
+	font-size: 2.5rem;
+}
+
+h2{
+	font-size: 2.5rem;
+	margin-top: 2rem;
+}
+
+h3{
+	font-size: 1.5rem;
+}
+
+h4{
+	margin-top: 2rem;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+h1.display{
+	font-family: Butler;
+	font-size: 1.5em;
+	margin-top: 0;
+}
+
+p.body{
+	font-family: Coves;
+	font-size: 1.5em;
+	margin-top: 0;
+	margin-bottom: 3rem;
+}
+
+#main_colour{
+	background-color: #153559;
+	width: 35%;
+	height: 200px;
+}
+
+#main_colour_02{
+	background-color: #D9D2D5;
+		width: 35%;
+	height: 200px;
+}
+
+#secondary_colour{
+	background-color: #D1BAC4;
+	width: 35%;
+	height: 200px;
+}
+
+#accent_colour{
+	background-color: #FFD54F;
+	width: 35%;
+	height: 200px;
+}
+
+#accent_colour_02{
+	background-color: #67804A;
+	width: 35%;
+	height: 200px;
+}
+
+h1.brandH1{
+	font-family: Butler;
+	font-size: 2.5rem;
+	margin-top: 0;
+}
+
+h2.brandH2{
+	font-family: Butler;
+	font-size: 2rem;
+	margin-top: 0;
+}
+
+h3.brandH3{
+	font-family: Coves;
+	font-size: 1.5rem;
+	margin-top: 0;
+}
+
+p, ol, ul{
+	font-family: Coves;
+	max-width: 75%;
+	font-size: 1.2rem;
+}
+
+ol{
+	list-style-type: upper-roman;
+	padding-left: 0;
+}
+
+ul{
+	list-style-type: none;
+	padding-left: 0;
+}
+
+ol li,
+ul li{
+	padding-bottom: 0.5rem;
+	list-style-position: inside;
+}
+
+p a{
+	color: #4C5C7D;
+	font-weight: bold;
+}
+
+p a:hover{
+	color: #B5849A;
+}
+
+[class^='primary'] {
+	color: #fff;
+	background-color: #153559;
+	text-decoration: none;
+	margin-top: 1rem;
+}
+
+.simpleButton{
+	margin-top: 1rem;
+	font-family: Coves;
+	font-weight: bold;
+	padding: 1rem;
+	margin-right: 0.5rem;
+	text-decoration: none;
+	color: #4C5C7D;
+	border-style: solid;
+	border-width: 0.1rem;
+	border-radius: 1rem;
+
+	-webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
+
+.simpleButton:hover{
+	background-color: #D9D2D5;
+}
+
+.primaryButton{
+	font-family: Coves;
+	font-weight: bold;
+	padding: 1rem;
+	border-style: solid;
+	border-width: 0.1rem;
+	border-radius: 1rem;
+
+	-webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
+
+.primaryButton:hover{
+	background-color: #4C5C7D;
+}
+
+.bigButton{
+	margin-top: 1rem;
+	font-family: Coves;
+	font-weight: bold;
+	padding: 1.5rem;
+	margin-right: 0.5rem;
+	font-size: 1.5rem;
+	text-decoration: none;
+	color: #153559;
+	border-style: solid;
+	border-width: 0.1rem;
+	border-radius: 1rem;
+
+	-webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
+
+.bigButton:hover{
+	background-color: #D9D2D5;
+}
+
+.primaryBig{
+	font-family: Coves;
+	padding: 1.5rem;
+	font-size: 1.5rem;
+	font-weight: bold;
+	border-style: solid;
+	border-width: 0.1rem;
+	border-radius: 1rem;
+
+	-webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
+
+.primaryBig:hover{
+	background-color: #4C5C7D;
+}
+
+ul.pagination{
+	font-family: Coves;
+	font-size: 1.25rem;
+	display: inline-block;
+	margin-top: 2rem;
+}
+
+ul.pagination li{
+	display: inline;
+}
+
+ul.pagination li a{
+	text-decoration: none;
+	color: #153559;
+	padding: 1rem;
+	border-radius: 0.5rem;
+
+	-webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
+
+ul.pagination li a:hover{
+	background-color: #D9D2D5;
+}
+
+a.buttonGroup{
+	padding: 1.25rem 1.75rem 1.25rem 1.75rem;
+	margin-bottom: 2rem;
+	text-decoration: none;
+	color: #153559;
+	background-color: #D9D2D5;
+	border-color: #BFB8BB;
+	border-style: solid;
+	border-width: 0.1rem;
+
+	-webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
+
+a.buttonGroup:hover{
+	background-color: #4C5C7D;
+	color: white;
+}
+
+input[type="submit"]{
+	background-color: #fff;
+	padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+	border-style: solid;
+	border-color: #153559;
+	color: #153559;
+	font-family: Coves;
+	font-weight: bold;
+	font-size: 1.1rem;
+}
+
+input[type="submit"]:hover{
+	color: #4C5C7D;
+	border-color: #4C5C7D;
+}
+
+form {
+	display: inline-block;
+	background-color: #D9D2D5;
+	padding: 1em;
+	width: 100%;
+}
+
+input[type="text"]{
+	width: 75%;
+	height: 1.75rem;
+}
+
+label{
+	display: block;
+	font-family: Coves;
+	font-size: 1.2rem;
+	margin-bottom: 0.25rem;
+	margin-top: 0.75rem;
+}
+
+textarea{
+	height: auto;
+	min-width: 75%;
+	max-width: 100%;
+}
