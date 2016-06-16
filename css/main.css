@@ -104,12 +104,12 @@ ul.navigation{
 	display: flex;
 	flex-direction: column;
 	list-style: none;
+	text-align: right;
 }
 
 ul.navigation a{
 	text-decoration: none;
 	display: block;
-	text-align: right;
 	margin-bottom: 1em;
 	color: darkgray;
 
@@ -145,12 +145,6 @@ h4{
 img{
 	max-width: 100%;
 	height: auto;
-}
-
-h1.display{
-	font-family: "Butler";
-	font-size: 1.5em;
-	margin-top: 0;
 }
 
 p.body{
@@ -190,25 +184,6 @@ p.body{
 	height: 200px;
 }
 
-h1.brandH1{
-	font-family: "Butler";
-	font-size: 2.5rem;
-	margin-top: 0;
-}
-
-h2.brandH2{
-	font-family: "Butler";
-	font-size: 2rem;
-	margin-top: 0;
-}
-
-h3.brandH3{
-	font-family: "Coves_Light";
-	font-size: 1.5rem;
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
-}
-
 p, ol, ul{
 	font-family: "Coves_Light";
 	max-width: 75%;
@@ -238,6 +213,10 @@ p a{
 
 p a:hover{
 	color: #B5849A;
+}
+
+section {
+	max-width: 100%;
 }
 
 [class^='primary'] {
@@ -412,22 +391,22 @@ textarea{
 /*---PRODUCT LISTING---*/
 
 figure.item {
-	display: inline-block;
-	float: left;
-	/*border: 1px solid #000;*/
+	margin: 0;
 }
 
 img.item-img {
-	max-width: 50%;
-
+	max-width: 100%;
+	padding: 3rem;
 }
 
-ul.item-description {
+figcaption.item-description {
 	margin: 0;
-	padding-top: 0.2rem;
 	font-family: "Coves_Light";
 	font-size: 0.9rem;
 	float: left;
+	position: relative;
+	bottom: 3rem;
+	left: 3rem;
 }
 
 a.item-link, a:visited.item-link {
@@ -435,6 +414,7 @@ a.item-link, a:visited.item-link {
 	text-decoration: none;
 	font-weight: bold;
 }
+
 
 /*---PRODUCT DETAILS---*/
 

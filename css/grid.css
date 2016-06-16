@@ -57,6 +57,9 @@
 	width: 66.5%;
 }
 
+ .grid-col-12of12{
+	width: 100%;
+}
 
 /* Style GUide Grids*/
 #gridStructure .grid-row{
