@@ -7,7 +7,7 @@
 }
 
 body{
-	font-family: "Coves_Light";
+	font-family: "Lato", "Helvetica";
 	max-width: 100%;
 	display: flex;
 	flex-direction: column;
@@ -493,7 +493,7 @@ p.productDetail-brand {
 
 p.small-txt {
 	font-size: 0.9rem;
-	max-width: 90%;
+	max-width: 60%;
 }
 
 

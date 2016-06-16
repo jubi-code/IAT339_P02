@@ -81,6 +81,10 @@
 	padding: 1rem 0 1rem 0;
 }
 
+.grid-col-9of12{
+	width: 72%
+}
+
 .grid-col-12of12{
 	width: 100%;
 }
