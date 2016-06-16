@@ -20,12 +20,6 @@ body{
 	src: url('font/Butler_Black.otf') format('opentype');
 }
 
-@font-face {
-	font-family: "Coves_Light";
-	font-style: normal;
-	src: url('font/Coves_Light.otf') format('opentype');
-}
-
 header{
 	background-color: #153559;
 	opacity: 0.8;
@@ -463,7 +457,6 @@ p.productDetail-brand {
 
 
 /*---PRODUCT REVIEW---*/
-
 .review {
 	border-top: 1px solid #D9D2D5;
 	border-bottom: 1px solid #D9D2D5;
@@ -497,7 +490,25 @@ select {
 	font-size: 0.9em;
 }
 
+
 .contshopping-btn {
 	position: relative;
 	top: 2em;
+
+	textarea{
+		min-width: 75%;
+		max-width: 100%;
+	}
+}
+
+@media (min-width: 80em){
+
+	input[type="text"]{
+		width: 75%;
+	}
+
+	textarea{
+		min-width: 75%;
+		max-width: 100%;
+	}
 }

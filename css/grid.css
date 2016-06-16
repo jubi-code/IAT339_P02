@@ -22,6 +22,7 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 	max-width: 100%;
+	justify-content: flex-start;
 }
 
 /*for the centered material*/
@@ -84,6 +85,7 @@
 .grid-col-8of12{
 	width: 66.5%;
 	text-align: center;
+	padding: 1rem 0 1rem 0;
 }
 
 .grid-col-12of12{
