@@ -97,36 +97,26 @@
 
 /* ======= MEDIA QUERIES ======= */
 
-@media (min-width: 80em){
+@media (max-width: 80em){
 	form {
-		width: 75%;
+		width: 100%;
 	}
 
 	input[type="text"]{
-		width: 75%;
+		width: 100%;
 	}
 
 	textarea{
-		width: 75%;
+		width: 100%;
 		max-width: 100%;
 	}
-}
-
-@media (max-width: 80em){
 
 	img.productDetail-img {
 		width: 50%;
 	}
 	
-	.product-cutoff {
+	.cutoff {
 		width: 100%;
 	}
 
-	.review-cutoff {
-		width: 100%;
-	}
-
-	.cart-cutoff {
-		width: 100%;
-	}
 }

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/grid.css">
+	<title>Order Page</title>
+</head>
+<body>
+	<header>
+		<div class="grid-row">
+			<a href="index.html" class="navName"><h1>Company Name</h1></a>
+			<a href="login.html" class="buyButton">Login</a>
+		</div><!--grid-row-->
+		<div class="grid-row">
+			<ul class="mainNavigation">
+				<li><a href="productListing.html">Perfumes</a></li>
+				<li><a href="personalizedPackaging.html">Personalizing</a></li>
+				<li><a href="aboutUs.html">About Us</a></li>
+			</ul>
+
+			<a href="shoppingCart.html" class="buyButton">Buy</a>
+		</div>
+	</header>
+
+	<div class="grid-col-main">
+
+		<!-- <div class="grid-row-centered"> -->
+			<div class="grid-col-12of12">
+				<h1>Shipping Order</h1>
+			</div>
+
+			<div class="grid-row cutoff">
+				<div class="grid-col-12of12">
+
+					<form method="post" action="#">
+						<label for="form-name" class="justify-left">Name</label>
+						<input type="text" id="form-name" class="justify-left" placeholder="Issaca Tsang">
+
+						<label for="form-email" class="justify-left">Email</label>
+						<input type="text" id="form-email" class="justify-left" placeholder="@something.com">
+
+						<label for="form-subject" class="justify-left">Address</label>
+						<input type="text" id="form-subject" class="justify-left" placeholder="Address">
+
+						<label for="form-subject" class="justify-left">Address2</label>
+						<input type="text" id="form-subject" class="justify-left" placeholder="Address 2">
+
+						<label for="form-subject" class="justify-left">Phone Number</label>
+						<input type="text" id="form-subject" class="justify-left" placeholder="Phone">
+					</form>
+					
+					<a href="confirmation.html"><input type="submit" value="Submit" action="confirmation.html"></a>
+
+				</div>
+			</div>
+		<!-- </div> -->
+
+	</div>
+
+</body>
+</html>
