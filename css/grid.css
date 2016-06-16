@@ -24,6 +24,14 @@
 	max-width: 100%;
 }
 
+/*for the centered material*/
+.grid-row-centered{
+ 	display: flex;
+ 	flex-direction: row;
+ 	flex-wrap: wrap;
+ 	max-width: 100%;
+ 	justify-content: space-around;
+ }
 
 .grid-col-1of2{
 	max-width: 50%;
@@ -35,107 +43,98 @@
 
 .grid-col-1of5{
 	width: 19.5%;
-}
-
-.grid-col-2of12{
-	width: 16.5%;
-}
-
-.grid-col-3of12{
-	width: 25%;
-}
-
-.grid-col-4of12{
-	width: 33%;
-}
-
-.grid-col-6of12{
-	width: 49%;
-}
-
- .grid-col-8of12{
-	width: 66.5%;
-}
-
- .grid-col-12of12{
-	width: 100%;
-}
-
-/* Style GUide Grids*/
-#gridStructure .grid-row{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	max-width: 100%;
-
-	justify-content: space-between;
-	margin-top: 1rem;
-}
-
-#gridStructure .grid-col-1of5{
-	background-color: #F0F0F0;
-	width: 19.5%;
 	text-align: center;
 	padding: 1rem 0 1rem 0;
 }
 
-#gridStructure .grid-col-1of12{
-	background-color: #F0F0F0;
+.grid-col-1of12{
 	width: 8.25%;
 	text-align: center;
 	padding: 1rem 0 1rem 0;
 }
 
-#gridStructure .grid-col-2of12{
-	background-color: #F0F0F0;
+.grid-col-2of12{
 	width: 16.5%;
 	text-align: center;
 	padding: 1rem 0 1rem 0;
 }
 
-#gridStructure .grid-col-3of12{
-	background-color: #F0F0F0;
+.grid-col-3of12{
 	width: 25%;
 	text-align: center;
 	padding: 1rem 0 1rem 0;
 }
 
-#gridStructure .grid-col-4of12{
-	background-color: #F0F0F0;
+.grid-col-4of12{
 	width: 33%;
 	text-align: center;
 	padding: 1rem 0 1rem 0;
 }
 
-#gridStructure .grid-col-5of12{
-	background-color: #F0F0F0;
+/* Adding padding to the contact information */
+#contactUs .grid-col-4of12{
+ 	padding-left: 1em;
+ }
+
+.grid-col-5of12{
 	width: 41%;
 	text-align: center;
 	padding: 1rem 0 1rem 0;
 }
 
-#gridStructure .grid-col-6of12{
-	background-color: #F0F0F0;
+.grid-col-6of12{
 	width: 49%;
 	text-align: center;
 	padding: 1rem 0 1rem 0;
 }
 
-#gridStructure .grid-col-8of12{
-	background-color: #F0F0F0;
+.grid-col-8of12{
 	width: 66.5%;
 	text-align: center;
 	padding: 1rem 0 1rem 0;
 }
 
-#gridStructure .grid-col-12of12{
-	background-color: #F0F0F0;
+.grid-col-12of12{
 	width: 100%;
 	text-align: center;
-	padding: 1rem 0 1rem 0;
 }
 
-
-#gridStructure .grid-col-6of12:first-of-type{
+.grid-col-6of12:first-of-type{
 	margin-right: 1%;
+}
+
+/* ======= MEDIA QUERIES ======= */
+
+@media (min-width: 80em){
+	form {
+		width: 75%;
+	}
+
+	input[type="text"]{
+		width: 75%;
+	}
+
+	textarea{
+		width: 75%;
+		max-width: 100%;
+	}
+}
+
+@media (max-width: 80em){
+
+	img.productDetail-img {
+		width: 50%;
+	}
+	
+	.product-cutoff {
+		width: 100%;
+	}
+
+	.review-cutoff {
+		width: 100%;
+	}
+
+	.cart-cutoff {
+		width: 100%;
+	}
 }
