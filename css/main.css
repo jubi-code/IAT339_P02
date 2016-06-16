@@ -2,19 +2,27 @@
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+
+	/*border: 1px solid red !important; */
 }
 
 body{
-	font-family: Lato, Verdana, sans-serif;
 	max-width: 100%;
 	display: flex;
 	flex-direction: row;
 }
 
 @font-face{
-	font-family: Butler;
-	src: url(font/Butler_Black.otf);
+	font-family: "Butler";
 	font-weight: bold;
+	font-style: normal;
+	src: url('font/Butler_Black.otf') format('opentype');
+}
+
+@font-face {
+	font-family: "Coves_Light";
+	font-style: normal;
+	src: url('font/Coves_Light.otf') format('opentype');
 }
 
 pre {
@@ -36,19 +44,13 @@ header{
 }
 
 header a.navName{
-	font-family: Butler;
+	font-family: "Butler";
 	margin-bottom: 0.25rem;
 	margin-top: 0.5rem;
 	margin-left: 5%;
 	color: #fff;
 
 	text-decoration: none;
-	-webkit-transition: color 0.5s;
-	transition: color 0.5s;
-}
-
-header a.navName:hover{
-	color: #FFD54F;
 }
 
 header h1{
@@ -79,8 +81,8 @@ ul.mainNavigation a:hover{
 }
 
 .buyButton{
-	font-size: 1rem;
-	margin-top: 0.25rem;
+	font-family: "Coves_Light";
+	font-size: 1.25rem;
 	position: absolute;
 	right: 2%;
 	text-decoration: none;
@@ -119,60 +121,98 @@ ul.navigation a:hover{
 	color: black;
 }
 
+
+h1{
+	font-family: "Butler";
+	margin-top: 2rem;
+	margin-left: 0;
+	font-size: 2.5rem;
+}
+
+h2{
+	font-size: 2.5rem;
+	margin-top: 2rem;
+}
+
+h3{
+	font-size: 1.5rem;
+}
+
+h4{
+	margin-top: 2rem;
+}
+
 img{
 	max-width: 100%;
 	height: auto;
 }
 
-#thin{
-	min-width: 100%;
-	max-height: 15em;
+h1.display{
+	font-family: "Butler";
+	font-size: 1.5em;
+	margin-top: 0;
 }
 
-p{
+p.body{
+	font-family: "Coves_Light";
 	font-size: 1.5em;
 	margin-top: 0;
 	margin-bottom: 3rem;
 }
 
-h1{
-	font-family: Butler;
+#main_colour{
+	background-color: #153559;
+	width: 35%;
+	height: 200px;
+}
+
+#main_colour_02{
+	background-color: #D9D2D5;
+	width: 35%;
+	height: 200px;
+}
+
+#secondary_colour{
+	background-color: #D1BAC4;
+	width: 35%;
+	height: 200px;
+}
+
+#accent_colour{
+	background-color: #FFD54F;
+	width: 35%;
+	height: 200px;
+}
+
+#accent_colour_02{
+	background-color: #67804A;
+	width: 35%;
+	height: 200px;
+}
+
+h1.brandH1{
+	font-family: "Butler";
 	font-size: 2.5rem;
 	margin-top: 0;
 }
 
-h2{
-	font-family: Butler;
+h2.brandH2{
+	font-family: "Butler";
 	font-size: 2rem;
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
+	margin-top: 0;
 }
 
-/*styling for the h2 links on the home page*/
-h2 a{
-	text-decoration: none;
-	color: #153559;
-	text-align: center;
-
-	-webkit-transition: color 0.5s;
-	transition: color 0.5s;
-}
-
-h2 a:hover{
-	color: #D9D2D5;
-}
-
-h3{
+h3.brandH3{
+	font-family: "Coves_Light";
 	font-size: 1.5rem;
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
 }
 
 p, ol, ul{
-	margin-top: 0.5em;
+	font-family: "Coves_Light";
 	max-width: 75%;
 	font-size: 1.2rem;
-	text-align: left;
 }
 
 ol{
@@ -189,15 +229,6 @@ ol li,
 ul li{
 	padding-bottom: 0.5rem;
 	list-style-position: inside;
-}
-
-/*justified text paragraphs*/
-p.justified{
-	text-align: center;
-}
-
-a{
-	text-decoration: none;
 }
 
 p a{
@@ -218,6 +249,7 @@ p a:hover{
 
 .simpleButton{
 	margin-top: 1rem;
+	font-family: "Coves_Light";
 	font-weight: bold;
 	padding: 1rem;
 	margin-right: 0.5rem;
@@ -236,6 +268,7 @@ p a:hover{
 }
 
 .primaryButton{
+	font-family: "Coves_Light";
 	font-weight: bold;
 	padding: 1rem;
 	border-style: solid;
@@ -252,6 +285,7 @@ p a:hover{
 
 .bigButton{
 	margin-top: 1rem;
+	font-family: "Coves_Light";
 	font-weight: bold;
 	padding: 1.5rem;
 	margin-right: 0.5rem;
@@ -271,6 +305,7 @@ p a:hover{
 }
 
 .primaryBig{
+	font-family: "Coves_Light";
 	padding: 1.5rem;
 	font-size: 1.5rem;
 	font-weight: bold;
@@ -287,6 +322,7 @@ p a:hover{
 }
 
 ul.pagination{
+	font-family: "Coves_Light";
 	font-size: 1.25rem;
 	display: inline-block;
 	margin-top: 2rem;
@@ -334,9 +370,12 @@ input[type="submit"]{
 	padding: 0.5rem 1.5rem 0.5rem 1.5rem;
 	border-style: solid;
 	border-color: #153559;
+	border-width: 0.1em;
 	color: #153559;
+	font-family: "Coves_Light";
 	font-weight: bold;
 	font-size: 1.1rem;
+	margin-top: 0.5em;
 }
 
 input[type="submit"]:hover{
@@ -358,17 +397,107 @@ input[type="text"]{
 
 label{
 	display: block;
+	font-family: "Coves_Light";
 	font-size: 1.2rem;
 	margin-bottom: 0.25rem;
 	margin-top: 0.75rem;
-	text-align: left;
 }
 
 textarea{
 	height: auto;
-	min-width: 100%;
+	width: 100%;
 	max-width: 100%;
 }
+
+/*---PRODUCT LISTING---*/
+
+figure.item {
+	display: inline-block;
+	float: left;
+	/*border: 1px solid #000;*/
+}
+
+img.item-img {
+	max-width: 50%;
+
+}
+
+ul.item-description {
+	margin: 0;
+	padding-top: 0.2rem;
+	font-family: "Coves_Light";
+	font-size: 0.9rem;
+	float: left;
+}
+
+a.item-link, a:visited.item-link {
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/*---PRODUCT DETAILS---*/
+
+.productDetails {
+	padding-left: 2rem;
+}
+
+.productDetail-title {
+	margin: 0;
+	line-height: 0.15rem;
+}
+
+img.productDetail-img {
+	max-width: 100%;
+}
+
+p.productDetail-brand {
+	font-size: 0.9em;
+	font-weight: bold;
+}
+
+p.productDetail-description {
+	font-size: 0.9rem;
+	max-width: 80%;
+}
+
+.btn-position {
+	display: block;
+	position: relative;
+	float: right;
+}
+
+
+
+/*---PRODUCT REVIEW---*/
+
+.review {
+	border-top: 1px solid #D9D2D5;
+	border-bottom: 1px solid #D9D2D5;
+}
+
+p.small-txt {
+	font-size: 0.9rem;
+	max-width: 90%;
+}
+
+
+/*--- SHOPPING BASKET ---*/
+
+.basket-img {
+	max-width: 90%;
+	padding: 0.5rem;
+}
+
+.border {
+	border-bottom: 1px solid #D9D2D5;
+}
+
+.dropdown-qty {
+	background-color: transparent;
+}
+
+/*--- MEDIA QUERIES ---*/
 
 @media (min-width: 80em){
 	form {
