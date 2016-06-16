@@ -10,7 +10,7 @@ body{
 	font-family: "Coves_Light";
 	max-width: 100%;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 }
 
 @font-face{
@@ -323,6 +323,34 @@ a.buttonGroup:hover{
 	color: white;
 }
 
+/*coding for the colours in the personalized packaging section*/
+
+[class^='colour'] {
+	height: 5em;
+	width: 100%;
+}
+
+.colour1{
+	background-color: #153559;
+}
+
+.colour2{
+	background-color: #D9D2D5;
+}
+
+.colour3{
+	background-color: #153559;
+}
+
+.colour4{
+	background-color: #153559;
+}
+
+.colour5{
+	background-color: #153559;
+}
+
+
 input[type="submit"]{
 	background-color: #fff;
 	padding: 0.5rem 1.5rem 0.5rem 1.5rem;
@@ -501,14 +529,28 @@ select {
 	}
 }
 
-@media (min-width: 80em){
+/* ======= MEDIA QUERIES ======= */
+
+@media (max-width: 80em){
+	form {
+		width: 100%;
+	}
 
 	input[type="text"]{
-		width: 75%;
+		width: 100%;
 	}
 
 	textarea{
-		min-width: 75%;
+		width: 100%;
 		max-width: 100%;
 	}
+
+	img.productDetail-img {
+		width: 50%;
+	}
+	
+	.cutoff {
+		width: 100%;
+	}
+
 }

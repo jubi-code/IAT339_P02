@@ -14,7 +14,7 @@
 	display: flex;
 	flex-direction: column;
 	margin-top: 6rem;
-	max-width: 65%;
+	max-width: 90%;
 	margin-left: 5%;
 }
 
@@ -45,27 +45,22 @@
 
 .grid-col-1of5{
 	width: 19.5%;
-	text-align: center;
 }
 
 .grid-col-1of12{
 	width: 8.25%;
-	text-align: center;
 }
 
 .grid-col-2of12{
 	width: 16.5%;
-	text-align: center;
 }
 
 .grid-col-3of12{
 	width: 25%;
-	text-align: center;
 }
 
 .grid-col-4of12{
 	width: 33%;
-	text-align: center;
 }
 
 /* Adding padding to the contact information */
@@ -75,51 +70,21 @@
 
 .grid-col-5of12{
 	width: 41%;
-	text-align: center;
 }
 
 .grid-col-6of12{
 	width: 49%;
-	text-align: center;
 }
 
 .grid-col-8of12{
 	width: 66.5%;
-	text-align: center;
 	padding: 1rem 0 1rem 0;
 }
 
 .grid-col-12of12{
 	width: 100%;
-	text-align: center;
 }
 
 .grid-col-6of12:first-of-type{
 	margin-right: 1%;
-}
-
-/* ======= MEDIA QUERIES ======= */
-
-@media (max-width: 80em){
-	form {
-		width: 100%;
-	}
-
-	input[type="text"]{
-		width: 100%;
-	}
-
-	textarea{
-		width: 100%;
-		max-width: 100%;
-	}
-
-	img.productDetail-img {
-		width: 50%;
-	}
-	
-	.cutoff {
-		width: 100%;
-	}
-
 }
