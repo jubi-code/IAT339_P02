@@ -44,31 +44,26 @@
 .grid-col-1of5{
 	width: 19.5%;
 	text-align: center;
-	padding: 1rem 0 1rem 0;
 }
 
 .grid-col-1of12{
 	width: 8.25%;
 	text-align: center;
-	padding: 1rem 0 1rem 0;
 }
 
 .grid-col-2of12{
 	width: 16.5%;
 	text-align: center;
-	padding: 1rem 0 1rem 0;
 }
 
 .grid-col-3of12{
 	width: 25%;
 	text-align: center;
-	padding: 1rem 0 1rem 0;
 }
 
 .grid-col-4of12{
 	width: 33%;
 	text-align: center;
-	padding: 1rem 0 1rem 0;
 }
 
 /* Adding padding to the contact information */
@@ -79,19 +74,16 @@
 .grid-col-5of12{
 	width: 41%;
 	text-align: center;
-	padding: 1rem 0 1rem 0;
 }
 
 .grid-col-6of12{
 	width: 49%;
 	text-align: center;
-	padding: 1rem 0 1rem 0;
 }
 
 .grid-col-8of12{
 	width: 66.5%;
 	text-align: center;
-	padding: 1rem 0 1rem 0;
 }
 
 .grid-col-12of12{
