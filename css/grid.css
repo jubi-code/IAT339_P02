@@ -1,7 +1,8 @@
 .grid-col-main{
 	display: flex;
 	flex-direction: column;
-	max-width: 65%;
+	max-width: 90%;
+	margin-left: 5%;
 	margin-top: 6rem;
 }
 
