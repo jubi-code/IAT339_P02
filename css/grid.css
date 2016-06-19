@@ -76,9 +76,13 @@
 	width: 50%;
 }
 
+.grid-col-7of12{
+	width: 58%;
+}
+
 .grid-col-8of12{
 	width: 66.5%;
-	padding: 1rem 0 1rem 0;
+	/*padding: 1rem 0 1rem 0;*/
 }
 
 .grid-col-9of12{
@@ -89,6 +93,12 @@
 	width: 83.2%
 	
 }
+
+.grid-col-11of12{
+	width: 91.5%
+	
+}
+
 
 .grid-col-12of12{
 	width: 100%;

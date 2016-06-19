@@ -22,138 +22,198 @@
 				<li><a href="login.html" class="buyButton">Login</a></li>
 				<li><a href="shoppingCart.html" class="buyButton">Buy</a></li>
 			</ul>
-			
 		</div>
 	</header>
+
+	<div class="grid-col-main">
+
+		<div class="grid-col-12of12">
+			<h1>Your Shopping Cart</h1>
+		</div>
+		<div class="padding-1em"></div>
+
+		<!-- ======== Notifications ============ -->
+		<div class="grid-col-12of12">
+			<p class="shop-notification max-width">
+				<em>THIS PRODUCT</em> has been added to your shopping cart
+			</p>
+			<p class="shop-notification max-width">
+				<em>2ND PRODUCT</em> has been added to your shopping cart
+			</p>
+		</div>
+		<div class="padding-2em"></div>
+
+		<!-- ======== START ITEM TABLE ============ -->
+		<!-- ==== TABLE TITLES === -->
+		<div class="grid-row border-thick">
+			<div class="grid-col-8of12">
+				<h3 class="margin-0">ITEM</h3>
+			</div>
+			<div class="grid-col-2of12">
+				<h3 class="margin-0">QUANTITY</h3>
+			</div>
+			<div class="grid-col-2of12">
+				<h3 class="margin-0 justify-right">PRICE</h3>
+			</div>
+		</div>
+
+		<!-- ==== 1ST ITEM === -->
+		<div class="grid-row border-thin">
+			<div class="grid-col-1of12">	
+				<img src="img/perfume_rose.jpg" alt="picture of rose perfume" class="cart-img">
+			</div>
+
+			<div class="grid-col-7of12 padding-1em-left">
+				<h4>Product Name by Brand Name</h4>
+				<p>SIZE 3.4 oz</p>
+			</div>
+
+			<div class="grid-col-2of12 padding-1em">
+				<!-- QTY Dropdown -->
+				<form class="transparent-bg">
+					<select>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="10">10</option>
+					</select>
+				</form>
+			</div>
+
+			<div class="grid-col-2of12 padding-2em">
+				<p class="justify-right">$123.45</p>
+			</div>
+		</div>
+		<!-- ==== END 1ST ITEM === -->
+
+		<!-- ==== 2ND ITEM === -->
+		<div class="grid-row border-thin">
+			<div class="grid-col-1of12">	
+				<img src="img/perfume_rose.jpg" alt="picture of rose perfume" class="cart-img">
+			</div>
+
+			<div class="grid-col-7of12 padding-1em-left">
+				<h4>Product Name by Brand Name</h4>
+				<p>SIZE 3.4 oz</p>
+			</div>
+
+			<div class="grid-col-2of12 padding-1em">
+				<!-- QTY Dropdown -->
+				<form class="transparent-bg">
+					<select>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="10">10</option>
+					</select>
+				</form>
+			</div>
+
+			<div class="grid-col-2of12 padding-2em">
+				<p class="justify-right">$123.45</p>
+			</div>
+		</div>
+		<!-- ==== END 2ND ITEM === -->
+
+		<!-- ==== 3RD ITEM === -->
+		<div class="grid-row border-thin">
+			<div class="grid-col-1of12">	
+				<img src="img/perfume_rose.jpg" alt="picture of rose perfume" class="cart-img">
+			</div>
+
+			<div class="grid-col-7of12 padding-1em-left">
+				<h4>Product Name by Brand Name</h4>
+				<p>SIZE 3.4 oz</p>
+			</div>
+
+			<div class="grid-col-2of12 padding-1em">
+				<!-- QTY Dropdown -->
+				<form class="transparent-bg">
+					<select>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="10">10</option>
+					</select>
+				</form>
+			</div>
+
+			<div class="grid-col-2of12 padding-2em">
+				<p class="justify-right">$123.45</p>
+			</div>
+		</div>
+		<!-- ==== END 3RD ITEM === -->
+		<!-- ============= END ITEM TABLE ================ -->
+
+		<!--== TOTAL & PROMO ========= -->
+
+		<!-- Shipping -->
+		<div class="grid-col-12of12">
+			<div class="grid-row">
+				<div class="grid-col-11of12">
+					<h4 class="justify-right"><strong>Shipping:</strong></p>
+				</div>
+				<div class="grid-col-1of12">
+					<h4 class="justify-right">$9.99</h4>
+				</div>
+			</div>
+		</div>
+
+		<!-- Total Price -->
+		<div class="grid-col-12of12  border-thin">
+			<div class="grid-row">
+				<div class="grid-col-11of12">
+					<h4 class="justify-right"><strong>SubTotal Price:</strong></h4>
+				</div>
+				<div class="grid-col-1of12">
+					<h4 class="justify-right"><strong>$999.99</strong></h4>
+				</div>
+			</div>
+		</div>
+
+		<!-- Promo Link -->
+		<div class="grid-col-12of12 border-thin">
+			<a href="#" class="justify-right link padding-2em">ADD PROMO LINK</a>
+		</div>
 	
-		<div class="grid-col-main">
-				
-				<div class="grid-col-12of12">
-					<h1>Your Shopping Cart</h1>
-				</div>
+		<!-- Checkout button -->
+		<div class="grid-col-12of12 border-thin">
+			<form class="transparent-bg justify-right" action="checkout.html">
+				<input type="submit" value="CHECK OUT" class="checkout-btn">
+			</form>
+		</div>
 
-				<!-- ==================== START ITEM TABLE ======================= -->
-				<div class="grid-row cutoff">
+		<!-- Continue Shopping -->
+		<div class="grid-col-12of12">
+			<a href="productListing.html" class="justify-right link">CONTINUE SHOPPING</a>
+		</div>
 
-					<!-- ================== TABLE TITLES ================== -->
-					<!-- Item -->
-					<div class="grid-col-8of12 cutoff">
-						<h4 class="justify-left">ITEM</h4>
-					</div>
 
-					<!-- Quantity --> 
-					<div class="grid-col-2of12 cutoff">
-						<h4>QUANTITY</h4>
-					</div>
 
-					<!-- Price -->
-					<div class="grid-col-2of12 cutoff">
-						<h4>PRICE</h4>
-					</div>
-					<hr>
-								
-					<!-- ================== ITEM #1 ====================== -->
-					<!-- Item Description -->
-					<div class="grid-col-8of12 cutoff">
-						<div class="grid-row">
 
-							<!-- Item image -->
-							<div class="grid-col-2of12">
-								<img src="img/perfume_rose.jpg" alt="picture of rose perfume" class="basket-img">
-							</div>
+	
 
-							<!-- Item Description -->
-							<div class="grid-col-8of12">
-								<p class="justify-left"><strong>Product Name by Brand Name</strong></p>
-								<p class="small-txt justify-left">SIZE 3.4 oz</p>
-							</div>
-						</div>
-					</div>
-			
-					<!-- Quantity Description -->
-					<div class="grid-col-2of12 cutoff">
-						<!-- QTY Dropdown -->
-						<form class="transparent-bg">
-							<select>
-								<option value="1">1</option>
-								<option value="2">2</option>
-								<option value="3">3</option>
-								<option value="4">4</option>
-								<option value="5">5</option>
-								<option value="6">6</option>
-								<option value="7">7</option>
-								<option value="8">8</option>
-								<option value="9">9</option>
-								<option value="10">10</option>
-							</select>
-						</form>
-					</div>
 
-					<!-- Price Description -->
-					<div class="grid-col-2of12 cutoff">
-						<p class="price-width">$123.45</p>
-					</div>
-					<hr>
-					<!-- ================== ITEM #2 ====================== -->
-					<!-- Item Description -->
-					<div class="grid-col-8of12 cutoff">
-						<div class="grid-row">
 
-							<!-- Item image -->
-							<div class="grid-col-2of12">
-								<img src="img/perfume_rose.jpg" alt="picture of rose perfume" class="basket-img">
-							</div>
-
-							<!-- Item Description -->
-							<div class="grid-col-8of12">
-								<p class="justify-left"><strong>Product Name by Brand Name</strong></p>
-								<p class="small-txt justify-left">SIZE 3.4 oz</p>
-							</div>
-						</div>
-					</div>
-			
-					<!-- Quantity Description -->
-					<div class="grid-col-2of12 cutoff">
-						<!-- QTY Dropdown -->
-						<form class="transparent-bg">
-							<select>
-								<option value="1">1</option>
-								<option value="2">2</option>
-								<option value="3">3</option>
-								<option value="4">4</option>
-								<option value="5">5</option>
-								<option value="6">6</option>
-								<option value="7">7</option>
-								<option value="8">8</option>
-								<option value="9">9</option>
-								<option value="10">10</option>
-							</select>
-						</form>
-					</div>
-
-					<!-- Price Description -->
-					<div class="grid-col-2of12 cutoff">
-						<p class="price-width">$123.45</p>
-					</div>
-					<hr>	
-
-				</div> <!-- end grid-row cutoff -->
-				<!-- ================ END ITEM TABLE ======================= -->
-
-				<!-- ======== TOTAL & PROMO =========== -->
-				<div class="grid-col-12of12 cutoff">
-					<ul class="max-width justify-right">
-						<li><p class="justify-right max-width"><strong>Total:</strong> $123.45</p></li>
-						<li><a href="" class="justify-right">Add Promo Link</a></li>
-					</ul>
-				</div>
-				<div class="grid-col-12of12 cutoff">
-					<a href="checkout.html"><input type="submit" value="CHECK OUT" class="justify-right"></a>
-				</div>
-				<div class="grid-col-12of12 cutoff">
-					<a href="productDetails.html" class="justify-right link-shop">CONTINUE SHOPPING</a>	
-				</div>
-
-		</div> <!-- end grid-col-main -->
+	</div> <!-- end grid-col-main -->
+	
 </body>
 </html>

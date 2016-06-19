@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Lato:300';
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
 
 *, *:after, *:before {
 	-webkit-box-sizing: border-box;
@@ -180,7 +180,7 @@ h3{
 }
 
 h4{
-	font-family: "Butler";
+	font-size: 1.3rem;
 	margin-top: 2rem;
 }
 
@@ -454,6 +454,11 @@ hr {
 	font-style: italic;
 }
 
+.margin-0 {
+	margin: 0;
+}
+
+
 /*---PRODUCT LISTING---*/
 
 figure.item {
@@ -489,9 +494,14 @@ a.item-link, a:visited.item-link {
 	margin-bottom: 2em;
 }
 
+
 /*---PRODUCT DETAILS---*/
 .padding-1em {
 	padding-top: 1em;
+}
+
+.padding-1em-left {
+	padding-left: 2em;
 }
 
 .padding-2em {
@@ -520,36 +530,58 @@ a.item-link, a:visited.item-link {
 
 /*--- SHOPPING CART ---*/
 
-.basket-img {
-	max-width: 100%;
-	padding: 0.5rem;
+.cart-img {
+	max-width: 75%;
+	padding: 1em 0em 1em 0em;
 }
 
-.border {
+.border-thick {
+	border-bottom: 5px solid #000;
+	padding-bottom: 0.75em;
+}
+
+.border-thin {
 	border-bottom: 1px solid #D9D2D5;
 }
 
 select {
-	margin: 0;
-	padding: 0.5rem 1em;
-	text-align: left;
-}
-
-.link-shop {
-	padding: 0.5em;
-	font-size: 0.9em;
-}
-
-
-.contshopping-btn {
+	padding: 1em 1.5rem;
 	position: relative;
-	top: 2em;
-
-	textarea{
-		min-width: 75%;
-		max-width: 100%;
-	}
 }
+
+.link {
+	padding: 0.5em;
+	font-size: 1rem;
+	color: #bb0a8b;
+	font-weight: 700;
+	font-style: bold;
+	text-decoration: underline;
+}
+
+.shop-notification {
+	background-color: #eee;
+	font-weight: 400;
+	padding: 1rem;
+	letter-spacing: 0.1rem;
+}
+
+.checkout-btn {
+	border-width: .25em !important;
+	padding: 1em 2em !important;
+	margin: 0;
+	position: relative;
+	left: 1%;
+}
+
+.contshopping-btn:hover {
+
+}
+
+textarea{
+	min-width: 75%;
+	max-width: 100%;
+}
+
 
 /* ======= MEDIA QUERIES ======= */
 
