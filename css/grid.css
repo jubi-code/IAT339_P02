@@ -48,7 +48,7 @@
 }
 
 .grid-col-1of12{
-	width: 8.25%;
+	width: 8.33%;
 }
 
 .grid-col-2of12{
@@ -60,7 +60,7 @@
 }
 
 .grid-col-4of12{
-	width: 33%;
+	width: 33.3%;
 }
 
 /* Adding padding to the contact information */
@@ -69,11 +69,11 @@
  }
 
 .grid-col-5of12{
-	width: 41%;
+	width: 41.5%;
 }
 
 .grid-col-6of12{
-	width: 49%;
+	width: 50%;
 }
 
 .grid-col-8of12{
@@ -82,7 +82,12 @@
 }
 
 .grid-col-9of12{
-	width: 72%
+	width: 75%
+}
+
+.grid-col-10of12{
+	width: 83.2%
+	
 }
 
 .grid-col-12of12{

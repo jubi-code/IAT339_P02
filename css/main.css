@@ -1,3 +1,5 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:300';
+
 *, *:after, *:before {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -7,7 +9,7 @@
 }
 
 body{
-	font-family: "Lato", "Helvetica";
+	font-family: 'Lato', sans-serif;
 	max-width: 100%;
 	display: flex;
 	flex-direction: column;
@@ -146,7 +148,7 @@ h1{
 
 h2{
 	font-family: "Butler";
-	font-size: 2rem;
+	font-size: 1.8rem;
 	margin-top: 2rem;
 }
 
@@ -171,7 +173,7 @@ h2 a:hover {
 
 h3{
 	font-family: "Butler";
-	font-size: 1.5rem;
+	font-size: 1.4rem;
 	margin: 0;
 }
 
@@ -192,6 +194,7 @@ p.body{
 }
 
 p, ol, ul{
+	margin: 0;
 	max-width: 75%;
 	font-size: 1.2rem;
 }
@@ -237,10 +240,8 @@ section {
 }
 
 .simpleButton{
-	margin-top: 1rem;
 	font-weight: bold;
 	padding: 1rem;
-	margin-right: 0.5rem;
 	text-decoration: none;
 	color: #4C5C7D;
 	border-style: solid;
@@ -428,11 +429,12 @@ hr {
 }
 
 .justify-left {
+	position: relative;
+	float: left;
 	text-align: left;
 }
 
 .justify-right {
-	display: inline-block;
 	position: relative;
 	float: right;
 	text-align: right;
@@ -444,6 +446,10 @@ hr {
 
 .transparent-bg {
 	background-color: transparent;
+}
+
+.italic {
+	font-style: italic;
 }
 
 /*---PRODUCT LISTING---*/
@@ -474,53 +480,33 @@ a.item-link, a:visited.item-link {
 
 
 /*---PRODUCT DETAILS---*/
-
-.productDetails {
-	padding-left: 2rem;
-	text-align: left;
+.padding-1em {
+	padding-top: 1em;
 }
 
-img.productDetail-img {
-	max-width: 100%;
+.padding-2em {
+	padding-top: 2em;
 }
 
-p.productDetail-brand {
-	margin-top: 0.5em;
-	font-size: 1em;
-	font-weight: bold;
-	text-align: left;
-}
 
 .btn-position {
 	display: block;
 	position: relative;
-	float: right;
-	bottom: 1em;
-	left: 0.5em;
+	text-align: center;
+	top: 2em;
+	padding: 1.5em;
+	width: 95%;
 }
-
-#h3-position {
-	margin: 0;
-	padding-right: 9em;
-}
-
-#h3-userPosition {
-	margin: 0;
-	padding-right: 22.2em;
-}
-
 
 /*---PRODUCT REVIEW---*/
+
+.first-review {
+	border-top:1px solid #D9D2D5;
+}
 .review {
-	border-top: 1px solid #D9D2D5;
 	border-bottom: 1px solid #D9D2D5;
+	padding: 0.75em;
 }
-
-p.small-txt {
-	font-size: 0.9rem;
-	max-width: 60%;
-}
-
 
 /*--- SHOPPING BASKET ---*/
 
