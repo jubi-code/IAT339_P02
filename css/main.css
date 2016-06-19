@@ -44,7 +44,7 @@ header h1{
 	margin: 0;
 }
 
-#thin {
+.thin {
 	min-width: 100%;
 	max-height: 15em;
 }
@@ -55,6 +55,7 @@ ul.mainNavigation{
 	flex-wrap: wrap;
 	margin: 0;
 	margin-left: 5%;
+	padding-top: 1.5em;
 }
 
 ul.mainNavigation a{
@@ -72,11 +73,21 @@ ul.mainNavigation a:hover{
 	color: #FFD54F;
 }
 
+/*for the links on the right side of the navigation bar*/
+ul.sideButtons{
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 0;
+	right: 5%;
+	padding-top: 1.5em;
+}
+
 .buyButton{
 	font-size: 1rem;
 	margin-top: 0.5em;
-	position: absolute;
-	right: 2%;
+	margin-right: 1em;
 	text-decoration: none;
 	color: white;
 
