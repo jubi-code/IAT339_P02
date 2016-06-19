@@ -30,7 +30,6 @@ header{
 	left: 0;
 	top: 0;
 
-	
 	z-index: 100;
 }
 
@@ -198,7 +197,6 @@ p.body{
 p, ol, ul{
 	margin: 0;
 	max-width: 75%;
-	font-size: 1.2rem;
 }
 
 a {
@@ -406,14 +404,14 @@ form {
 
 input[type="text"]{
 	width: 100%;
-	height: 1.75rem;
+	height: 2rem;
 }
 
 label{
 	display: block;
-	font-size: 1.2rem;
 	margin-bottom: 0.25rem;
-	margin-top: 0.75rem;
+	margin-top: 1.25rem;
+
 }
 
 textarea{
@@ -457,7 +455,6 @@ hr {
 .margin-0 {
 	margin: 0;
 }
-
 
 /*---PRODUCT LISTING---*/
 
@@ -522,6 +519,7 @@ a.item-link, a:visited.item-link {
 .first-review {
 	border-top:1px solid #D9D2D5;
 }
+
 .review {
 	border-bottom: 1px solid #D9D2D5;
 	padding: 0.75em;
@@ -567,14 +565,11 @@ select {
 
 .checkout-btn {
 	border-width: .25em !important;
-	padding: 1em 2em !important;
+	/*padding: 1em 2em !important;*/
 	margin: 0;
 	position: relative;
 	left: 1%;
-}
-
-.contshopping-btn:hover {
-
+	margin-bottom: 1em;
 }
 
 textarea{
@@ -582,6 +577,21 @@ textarea{
 	max-width: 100%;
 }
 
+
+/* --- Checkout ---- */
+
+#shipping {
+	padding: 2em;
+	margin-bottom: 1em;
+	border: 1.3em solid #999;
+	/*border-style: double;*/
+	/*background: transparent;*/
+}
+
+#checkout-btn {
+	border-width: 2px;
+	padding: .8em 2em;
+}
 
 /* ======= MEDIA QUERIES ======= */
 
