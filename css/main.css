@@ -208,6 +208,14 @@ p, ol, ul{
 	max-width: 75%;
 }
 
+/*text styling for the confirmation page only*/
+#confirmation p, h1{
+	text-align: center;
+	max-width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 a {
 	text-decoration: none;
 }
