@@ -117,6 +117,7 @@ ul.navigation{
 	display: flex;
 	flex-direction: row;
 	list-style: none;
+	flex-wrap: wrap;
 }
 
 ul.navigation li {
@@ -489,7 +490,7 @@ figure.item {
 
 img.item-img {
 	max-width: 100%;
-	padding: 0em 3em 0em 3em;
+	padding: 0em 2em 0em 2em;
 }
 
 .item-description {
@@ -618,33 +619,6 @@ textarea{
 }
 
 /* ======= MEDIA QUERIES ======= */
-@media (max-width: 40em){
-	.padding-1em {
-		padding-top: 0;
-	}
-
-	.padding-2em {
-		padding-top: 1em;
-	}
-}
-
-@media (max-width: 50em){
-	select{
-		padding: .75em 1em;
-	}
-
-	form.transparent-bg{
-		padding:0.5em;
-	}
-}
-
-@media (max-width: 60em){
-	ul{
-		margin-top: 1em;
-		max-width: 100%;
-	}
-}
-
 @media (max-width: 80em){
 	form {
 		width: 100%;
@@ -666,5 +640,52 @@ textarea{
 	.cutoff {
 		width: 100%;
 	}
+
+}
+
+@media (max-width: 60em){
+	ul{
+		margin-top: 1em;
+		max-width: 100%;
+	}
+
+	header a.navName{
+		width: 100%;
+		text-align: center;
+		margin-top: 0;
+		margin-left: 0;
+	}
+
+	ul.mainNavigation{
+		padding-top: 0.5em;
+	}
+
+	ul.sideButtons{
+		padding-top: 0.5em;
+	}
+}
+
+@media (max-width: 50em){
+	select{
+		padding: .75em 1em;
+	}
+
+	form.transparent-bg{
+		padding:0.5em;
+	}
+}
+
+@media (max-width: 40em){
+	.padding-1em {
+		padding-top: 0;
+	}
+
+	.padding-2em {
+		padding-top: 1em;
+	}
+
+	img.item-img {
+	padding: 0;
+}
 
 }

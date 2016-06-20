@@ -122,6 +122,10 @@
 
 /*media queries*/
 @media (max-width: 60em){
+	.grid-col-main{
+		margin-top: 2em;
+	}
+
 	#contactUs .grid-col-4of12{
 		width: 100%;
 		text-align: center;
@@ -176,5 +180,11 @@
 @media (max-width: 40em){
 	.grid-col-4of12{
 		width: 100%;
+	}
+}
+
+@media (max-width: 35em){
+	.grid-col-main{
+		max-width: 100%;
 	}
 }
