@@ -13,6 +13,7 @@ body{
 	max-width: 100%;
 	display: flex;
 	flex-direction: column;
+	margin-top: 5em;
 }
 
 @font-face{
@@ -159,7 +160,7 @@ h2 a {
 	font-family: "Butler";
 	text-decoration: none;
 	color: #153559;
-	text-align: center;
+	text-align: left;
 	position: absolute;
 	left: 45%;
 
@@ -176,6 +177,11 @@ h3{
 	font-family: "Butler";
 	font-size: 1.4rem;
 	margin: 0;
+}
+
+/*special class for all h3 tags that is right aligned*/
+h3.right-aligned{
+	text-align: right;
 }
 
 h4{

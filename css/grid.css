@@ -3,7 +3,7 @@
 	flex-direction: column;
 	max-width: 90%;
 	margin-left: 5%;
-	margin-top: 6rem;
+	margin-top: 1rem;
 }
 
 #citations{
@@ -33,6 +33,17 @@
  	flex-wrap: wrap;
  	max-width: 100%;
  	justify-content: space-around;
+ }
+
+
+
+ .grid-row-right{
+ 	 display: flex;
+ 	flex-direction: row;
+ 	flex-wrap: wrap;
+ 	max-width: 100%;
+ 	justify-content: flex-end;
+ 	margin-top: 1em;
  }
 
 .grid-col-1of2{
@@ -106,4 +117,10 @@
 
 .grid-col-6of12:first-of-type{
 	margin-right: 1%;
+}
+
+@media (max-width: 50em){
+	.grid-col-6of12{
+		width: 100%;
+	}
 }
