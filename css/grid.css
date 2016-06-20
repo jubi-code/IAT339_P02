@@ -88,6 +88,14 @@
 	width: 49%;
 }
 
+.grid-col-6of12:first-of-type{
+	border-right-style: solid;
+	border-right-width: 0.01em;
+	border-right-color: #153559;
+	padding-right: 0.5em;
+	margin-right: 0.5em;
+}
+
 .grid-col-7of12{
 	width: 58%;
 }
