@@ -25,6 +25,7 @@
 	width: 100%;
 	justify-content: flex-start;
 	align-items: flex-start;
+	margin-top: 0.75em;
 }
 
 /*for the centered material*/
@@ -88,14 +89,6 @@
 	width: 49%;
 }
 
-.grid-col-6of12:first-of-type{
-	border-right-style: solid;
-	border-right-width: 0.01em;
-	border-right-color: #153559;
-	padding-right: 0.5em;
-	margin-right: 0.5em;
-}
-
 .grid-col-7of12{
 	width: 58%;
 }
@@ -141,6 +134,10 @@
 	#contactUs .grid-col-8of12{
 		width: 100%;
 	}
+
+	#checkOut .grid-col-6of12{
+		width: 70%;
+	}
 }
 
 @media (max-width: 55em){
@@ -157,6 +154,18 @@
 	.grid-col-6of12{
 		width: 100%;
 		margin-bottom: 2.5em;
+	}
+
+	#checkOut .grid-col-6of12{
+		width: 100%;
+	}
+
+	#checkOut .grid-col-3of12{
+		width: 100%;
+	}
+
+	#checkOut .grid-row-centered{
+		flex-wrap: wrap-reverse;
 	}
 
 	#shoppingCart .grid-col-7of12{
