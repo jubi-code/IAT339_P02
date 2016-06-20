@@ -466,6 +466,7 @@ hr {
 
 figure.item {
 	margin: 0;
+	margin-bottom: 5em;
 }
 
 img.item-img {
@@ -600,6 +601,12 @@ textarea{
 }
 
 /* ======= MEDIA QUERIES ======= */
+@media (max-width: 60em){
+	ul{
+		margin-top: 1em;
+		max-width: 100%;
+	}
+}
 
 @media (max-width: 80em){
 	form {
