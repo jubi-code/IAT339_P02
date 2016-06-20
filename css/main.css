@@ -189,7 +189,7 @@ h3.right-aligned{
 
 h4{
 	font-size: 1.3rem;
-	margin-top: 2rem;
+	margin-top: 1em;
 }
 
 img{
@@ -209,11 +209,17 @@ p, ol, ul{
 }
 
 /*text styling for the confirmation page only*/
-#confirmation p, h1{
+#confirmation p,
+#confirmation h1{
 	text-align: center;
 	max-width: 75%;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+/*adding margin to the contact information*/
+#contactUs ul{
+	margin-top: 1.5em;
 }
 
 a {
@@ -258,7 +264,6 @@ section {
 
 .simpleButton{
 	font-weight: bold;
-	padding: 1rem;
 	text-decoration: none;
 	color: #4C5C7D;
 	border-style: solid;
@@ -549,7 +554,6 @@ a.item-link, a:visited.item-link {
 /*--- SHOPPING CART ---*/
 
 .cart-img {
-	max-width: 75%;
 	padding: 1em 0em 1em 0em;
 }
 
@@ -614,6 +618,26 @@ textarea{
 }
 
 /* ======= MEDIA QUERIES ======= */
+@media (max-width: 40em){
+	.padding-1em {
+		padding-top: 0;
+	}
+
+	.padding-2em {
+		padding-top: 1em;
+	}
+}
+
+@media (max-width: 50em){
+	select{
+		padding: .75em 1em;
+	}
+
+	form.transparent-bg{
+		padding:0.5em;
+	}
+}
+
 @media (max-width: 60em){
 	ul{
 		margin-top: 1em;
