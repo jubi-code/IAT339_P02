@@ -475,7 +475,7 @@ figure.item {
 
 img.item-img {
 	max-width: 100%;
-	padding: 0em 2em 0em 2em;
+	padding: 0em 3em 0em 3em;
 }
 
 .item-description {
@@ -484,7 +484,7 @@ img.item-img {
 	font-size: 0.9rem;
 	float: left;
 	position: relative;
-	padding: 0em 2em 0em 2em;
+	padding: 0em 3em 0em 3em;
 }
 
 a.item-link, a:visited.item-link {
