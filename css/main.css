@@ -115,29 +115,33 @@ ul.sideButtons{
 
 
 ul.navigation{
-/*	margin-left: 5%;
-	margin-right: 5%;
-	margin-top: 7em;*/
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	list-style: none;
-	text-align: right;
+}
+
+ul.navigation li {
+	margin: 0;
+	text-align: center;	
 }
 
 ul.navigation a{
+	padding: 1.5rem;
 	text-decoration: none;
 	display: block;
 	margin-bottom: 1em;
 	color: #153559;
+	font-size: 1.1rem;
 	font-style: bold;
 	font-weight: 700;
 
-	-webkit-transition: color 0.5s;
-	transition: color 0.5s;
+	-webkit-transition: color 0.5s ease-in;
+	transition: color 0.5s ease-in;
 }
 
 ul.navigation a:hover{
 	color: #FFD54F;
+	text-decoration: underline;
 }
 
 
