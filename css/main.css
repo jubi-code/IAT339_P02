@@ -206,7 +206,7 @@ p.body{
 
 p, ol, ul{
 	margin: 0;
-	max-width: 75%;
+	max-width: 65%;
 }
 
 /*adding margin to the contact information*/
@@ -475,6 +475,10 @@ hr {
 	margin: 0;
 }
 
+.padding-0 {
+	padding: 0 !important;
+}
+
 /*---PRODUCT LISTING---*/
 
 figure.item {
@@ -566,13 +570,20 @@ select {
 	position: relative;
 }
 
-.link {
+.link, .link:visited, .link:focus {
 	padding: 0.5em;
 	font-size: 1rem;
 	color: #bb0a8b;
 	font-weight: 700;
 	font-style: bold;
 	text-decoration: underline;
+
+	-webkit-transition: color 0.5s;
+	transition: color 0.5s;
+}
+
+.link:hover {
+	color: black;
 }
 
 .shop-notification {
