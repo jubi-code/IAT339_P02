@@ -37,8 +37,6 @@
  	justify-content: space-around;
  }
 
-
-
  .grid-row-right{
  	display: flex;
  	flex-direction: row;
@@ -57,7 +55,7 @@
 }
 
 .grid-col-1of5{
-	width: 19.5%;
+	width: 20%;
 }
 
 .grid-col-1of12{
@@ -80,13 +78,13 @@
 #contactUs .grid-col-4of12{
  	padding-left: 1em;
  }
-
+ 
 .grid-col-5of12{
 	width: 41.5%;
 }
 
 .grid-col-6of12{
-	width: 49%;
+	width: 49.5%;
 }
 
 .grid-col-7of12{
@@ -108,9 +106,7 @@
 
 .grid-col-11of12{
 	width: 91.5%
-	
 }
-
 
 .grid-col-12of12{
 	width: 100%;

@@ -4,6 +4,7 @@
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+	margin: 0;
 
 	/*border: 1px solid red !important; */
 }
@@ -478,7 +479,7 @@ hr {
 
 
 .margin-0 {
-	margin: 0;
+	margin: 0 !important;
 }
 
 .padding-0 {
@@ -633,6 +634,20 @@ textarea{
 #checkout-btn {
 	border-width: 2px;
 	padding: .8em 2em;
+}
+
+/* --- Personalize Package ---- */
+
+h1.h1-alt {
+	background-color: #282c2f;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	font-size: 1.2rem;
+	color: #ffe8a0;
+	padding: 1.2rem;
+	border-bottom: 1px solid #FFD54F;
+	text-align: center;
+	max-width: 100%;
 }
 
 /* ======= MEDIA QUERIES ======= */
