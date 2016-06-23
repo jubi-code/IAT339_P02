@@ -238,6 +238,13 @@ a {
 	text-decoration: none;
 }
 
+a.no-wrap{
+	white-space: -moz-pre-wrap; /* Firefox */
+	white-space: -o-pre-wrap; /* Opera */
+	white-space: nowrap; /* Chrome */
+	word-wrap: break-word; /* IE */
+}
+
 ol{
 	list-style-type: upper-roman;
 	padding-left: 0;
@@ -390,6 +397,12 @@ a.buttonGroup:hover{
 [class^='colour'] {
 	height: 5em;
 	width: 100%;
+}
+
+[class^='colour']:active{
+	border-style: solid;
+	border-width: 0.5em;
+	border-color: black;
 }
 
 .colour1{
