@@ -622,12 +622,11 @@ textarea{
 
 /* --- Checkout ---- */
 
-#shipping {
+/* also used in aboutUs.html */
+.form-style {
 	padding: 2em;
 	margin-bottom: 1em;
 	border: 1.3em solid #999;
-	/*border-style: double;*/
-	/*background: transparent;*/
 }
 
 #checkout-btn {
@@ -647,6 +646,8 @@ h2.h2-alt {
 	border-bottom: 1px solid #FFD54F;
 	text-align: center;
 	max-width: 100%;
+	margin-top: 0.75rem;
+	margin-bottom: 0.75rem;
 }
 
 /* --- Home Page -------*/
@@ -661,6 +662,15 @@ h2.h2-alt {
 
 	text-align: center;	
 	color: white;
+}
+
+.aboutUs-description {
+	background-color: #d2d2d2;
+	padding: 2em;
+}
+
+p.aboutUs-p {
+	padding: 0em 2em;
 }
 
 /* ======= MEDIA QUERIES ======= */
@@ -685,7 +695,6 @@ h2.h2-alt {
 	.cutoff {
 		width: 100%;
 	}
-
 
 }
 
