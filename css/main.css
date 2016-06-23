@@ -112,6 +112,12 @@ ul.sideButtons{
 	color: #FFD54F;
 }
 
+.shoppingCartButton img{
+	max-width: 2em;
+	max-height: 2em;
+	margin-top: -0.25em;
+}
+
 
 ul.navigation{
 	display: flex;
