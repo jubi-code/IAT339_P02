@@ -394,7 +394,7 @@ a.buttonGroup:hover{
 
 input[type="submit"]{
 	background-color: #fff;
-	padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+	padding: 0.5rem 1.5rem;
 	border-style: solid;
 	border-color: #153559;
 	border-width: 0.1em;
@@ -624,7 +624,7 @@ textarea{
 .form-style {
 	padding: 2em 1em;
 	margin-bottom: 1em;
-	border: 1em solid #999;
+	border: 1.5em solid #999;
 }
 
 #checkout-btn {
@@ -669,6 +669,13 @@ h2.h2-alt {
 
 p.aboutUs-p {
 	padding: 0em 2em;
+}
+
+.account-form {
+	background-color: #e2e4f3;
+	margin: 0;
+	padding: 2em 0em;
+	font-weight: 700;
 }
 
 /* ======= MEDIA QUERIES ======= */
@@ -734,8 +741,6 @@ p.aboutUs-p {
 	form.transparent-bg{
 		padding:0.5em;
 	}
-
-
 }
 
 @media (max-width: 40em){
@@ -750,6 +755,4 @@ p.aboutUs-p {
 	img.item-img {
 		padding: 0em;
 	}	
-
-
 }
