@@ -132,7 +132,6 @@ ul.navigation a{
 	margin-bottom: 1em;
 	color: #153559;
 	font-size: 1.1rem;
-	font-style: bold;
 	font-weight: 700;
 
 	-webkit-transition: color 0.5s ease-in;
@@ -189,7 +188,7 @@ h3.right-aligned{
 }
 
 h4{
-	font-size: 1.3rem;
+	font-size: 1.2rem;
 	margin-top: 1em;
 }
 
@@ -473,7 +472,6 @@ hr {
 
 .underline {
 	text-decoration: underline !important;
-	text-underline-position: 1em;
 }
 
 
@@ -624,9 +622,9 @@ textarea{
 
 /* also used in aboutUs.html */
 .form-style {
-	padding: 2em;
+	padding: 2em 1em;
 	margin-bottom: 1em;
-	border: 1.3em solid #999;
+	border: 1em solid #999;
 }
 
 #checkout-btn {
