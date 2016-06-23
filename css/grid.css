@@ -37,6 +37,17 @@
  	justify-content: space-around;
  }
 
+ .grid-row-relative{
+ 	display: flex;
+ 	flex-direction: row;
+ 	flex-wrap: wrap;
+ 	max-width: 100%;
+ 	justify-content: space-around;
+
+ 	position: relative;
+ }
+
+
  .grid-row-right{
  	display: flex;
  	flex-direction: row;
@@ -236,5 +247,3 @@
 	.grid-col-main{
 		max-width: 100%;
 	}
-
-}

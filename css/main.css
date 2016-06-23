@@ -14,6 +14,8 @@ body{
 	display: flex;
 	flex-direction: column;
 	margin-top: 5em;
+
+	font-size: 1em;
 }
 
 @font-face{
@@ -41,6 +43,12 @@ header a.navName{
 	color: #fff;
 
 	text-decoration: none;
+	-webkit-transition: color 0.5s;
+	transition: color 0.5s;
+}
+
+header a.navName:hover{
+	color: #ffe8a0;
 }
 
 header h1{
@@ -83,7 +91,7 @@ ul.mainNavigation a{
 }
 
 ul.mainNavigation a:hover{
-	color: #FFD54F;
+	color: #ffe8a0;
 }
 
 /*for the links on the right side of the navigation bar*/
@@ -109,7 +117,7 @@ ul.sideButtons{
 }
 
 .buyButton:hover{
-	color: #FFD54F;
+	color: #ffe8a0;
 }
 
 .shoppingCartButton img{
@@ -489,7 +497,7 @@ hr {
 
 
 .margin-0 {
-	margin: 0 !important;
+	margin-bottom: 0 !important;
 }
 
 .padding-0 {
@@ -648,7 +656,7 @@ textarea{
 /* --- Personalize Package ---- */
 
 h2.h2-alt {
-	background-color: #282c2f;
+	background-color: #122336;
 	text-transform: uppercase;
 	letter-spacing: 0.2em;
 	font-size: 1.2rem;
@@ -679,10 +687,9 @@ img.interactive{
 	display: block;
 	position: absolute;
 	padding: 1.5em;
-	right: 44%;
-	top: 32%;
-	width: 12%;
-	left: 48%;
+	top: 55%;
+	width: 25%;
+	left: 45%;
 
 	text-align: center;	
 	color: white;
@@ -792,11 +799,6 @@ p.aboutUs-p {
 	img.interactive{
 		max-height: 15em;
 	}
-
-	.absolute-btn-position{
-		top: 45%;
-		width: 20%;
-	}
 }
 
 @media (max-width: 50em){
@@ -837,7 +839,7 @@ p.aboutUs-p {
 
 	ul.mainNavigation a{
 		margin-right: 1em;
-		font-size: 1.2em;
+		font-size: 1.1em;
 	}
 
 	ul.sideButtons{
@@ -845,7 +847,7 @@ p.aboutUs-p {
 	}
 
 	.buyButton{
-		font-size: 1.1em;
+		font-size: 0.9em;
 	}
 
 	/*homepage*/
@@ -856,7 +858,6 @@ p.aboutUs-p {
 	}
 
 	.absolute-btn-position{
-		top: 45%;
 		left: 37.5%;
 		width: 40%;
 	}
