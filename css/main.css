@@ -394,7 +394,7 @@ a.buttonGroup:hover{
 
 input[type="submit"]{
 	background-color: #fff;
-	padding: 0.5rem 1.5rem;
+	padding: 1rem 1.5rem;
 	border-style: solid;
 	border-color: #153559;
 	border-width: 0.1em;
@@ -654,13 +654,34 @@ h2.h2-alt {
 	display: block;
 	position: absolute;
 	padding: 1.5em;
-	right: 40.5%;
-	top: 38%;
-	width: 10%;
+	right: 40%;
+	top: 36%;
+	width: 12%;
 
 	text-align: center;	
 	color: white;
 }
+
+[class^='home-'] {
+	position: absolute;
+	z-index: 10;
+	color:white;
+}
+
+h2.home-new {
+	/*top: 16%;*/
+	/*left: 52%;*/
+	font-size: 2rem;
+	font-style: italic;
+}
+
+h2.home-name {
+	font-size: 4em;
+	/*left: 37%;*/
+	/*top: 18%;*/
+}
+
+/* ----- ABOUT US ------- */
 
 .aboutUs-description {
 	background-color: #d2d2d2;
@@ -670,6 +691,8 @@ h2.h2-alt {
 p.aboutUs-p {
 	padding: 0em 2em;
 }
+
+/* ---- LOGIN ---- */
 
 .account-form {
 	background-color: #e2e4f3;
@@ -699,6 +722,12 @@ p.aboutUs-p {
 	
 	.cutoff {
 		width: 100%;
+	}
+
+	.grid-col-main{
+		margin-top: 2em;
+		margin-left: 0;
+		max-width: 100%;
 	}
 
 }
