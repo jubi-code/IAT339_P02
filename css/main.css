@@ -4,7 +4,6 @@
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	margin: 0;
 
 	/*border: 1px solid red !important; */
 }
@@ -650,6 +649,20 @@ h2.h2-alt {
 	max-width: 100%;
 }
 
+/* --- Home Page -------*/
+
+.home-btn-position {
+	display: block;
+	position: absolute;
+	padding: 1.5em;
+	right: 40.5%;
+	top: 38%;
+	width: 10%;
+
+	text-align: center;	
+	color: white;
+}
+
 /* ======= MEDIA QUERIES ======= */
 @media (max-width: 80em){
 	form {
@@ -673,6 +686,7 @@ h2.h2-alt {
 		width: 100%;
 	}
 
+
 }
 
 @media (max-width: 60em){
@@ -695,12 +709,14 @@ h2.h2-alt {
 	ul.sideButtons{
 		padding-top: 0.5em;
 	}
+
 }
 
 @media (max-width: 55em){
 	p{
 		max-width: 100%;
 	}
+
 }
 
 @media (max-width: 50em){
@@ -711,6 +727,8 @@ h2.h2-alt {
 	form.transparent-bg{
 		padding:0.5em;
 	}
+
+
 }
 
 @media (max-width: 40em){
@@ -721,4 +739,10 @@ h2.h2-alt {
 	.padding-2em {
 		padding-top: 1em;
 	}
+	
+	img.item-img {
+		padding: 0em;
+	}	
+
+
 }
