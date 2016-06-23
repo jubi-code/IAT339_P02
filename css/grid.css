@@ -153,6 +153,21 @@
 
 }
 
+@media(max-width: 75em){
+	#colours .grid-col-2of12{
+		width: 30%;
+	}
+
+	#colours .grid-col-4of12{
+		width: 50%;
+		text-align: right;
+	}
+
+	#colours .grid-row-centered{
+		justify-content: flex-end;
+	}
+}
+
 
 @media (max-width: 60em){
 	.grid-col-main{
