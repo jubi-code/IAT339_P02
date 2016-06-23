@@ -650,8 +650,9 @@ img.opacity-hover {
 /* ----- ABOUT US ------- */
 
 .aboutUs-description {
-	background-color: #e2e4f3;
-	padding: 2em;
+	background-color: #d2d2d2;
+	padding: 5.5em 2em 5.5em 2em;
+	line-height: 1.5em;
 }
 
 p.aboutUs-p {
