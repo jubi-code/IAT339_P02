@@ -41,6 +41,12 @@ header a.navName{
 	color: #fff;
 
 	text-decoration: none;
+	-webkit-transition: color 0.5s;
+	transition: color 0.5s;
+}
+
+header a.navName:hover{
+	color: #ffe8a0;
 }
 
 header h1{
@@ -68,7 +74,7 @@ ul.mainNavigation{
 	flex-wrap: wrap;
 	margin: 0;
 	margin-left: 5%;
-	padding-top: 1.5em;
+	padding-top: 1.75em;
 }
 
 ul.mainNavigation a{
@@ -83,7 +89,7 @@ ul.mainNavigation a{
 }
 
 ul.mainNavigation a:hover{
-	color: #FFD54F;
+	color: #ffe8a0;
 }
 
 /*for the links on the right side of the navigation bar*/
@@ -94,7 +100,7 @@ ul.sideButtons{
 	flex-wrap: wrap;
 	margin: 0;
 	right: 5%;
-	padding-top: 1.5em;
+	padding-top: 1.75em;
 }
 
 .buyButton{
@@ -109,13 +115,20 @@ ul.sideButtons{
 }
 
 .buyButton:hover{
-	color: #FFD54F;
+	color: #ffe8a0;
 }
 
 .shoppingCartButton img{
 	max-width: 2em;
 	max-height: 2em;
 	margin-top: -0.25em;
+
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.shoppingCartButton img:hover{
+	transform: scale(1.25);
 }
 
 
@@ -161,6 +174,20 @@ h2{
 	font-family: "Butler";
 	font-size: 1.8rem;
 	margin-top: 2rem;
+}
+
+h2.h2-alt {
+	background-color: #17283B;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	font-size: 1.2rem;
+	color: #ffe8a0;
+	padding: 1.2rem;
+	border-bottom: 1px solid #FFD54F;
+	text-align: center;
+	max-width: 100%;
+	margin-top: 0.75rem;
+	margin-bottom: 0.75rem;
 }
 
 
@@ -640,20 +667,6 @@ textarea{
 
 /* --- Personalize Package ---- */
 
-h2.h2-alt {
-	background-color: #282c2f;
-	text-transform: uppercase;
-	letter-spacing: 0.2em;
-	font-size: 1.2rem;
-	color: #ffe8a0;
-	padding: 1.2rem;
-	border-bottom: 1px solid #FFD54F;
-	text-align: center;
-	max-width: 100%;
-	margin-top: 0.75rem;
-	margin-bottom: 0.75rem;
-}
-
 /* --- Home Page -------*/
 
 .home-btn-position {
@@ -790,4 +803,30 @@ p.aboutUs-p {
 	img.item-img {
 		padding: 0em;
 	}	
+
+	/*header styling for mobile or similar sizes*/
+	header a.navName{
+		width: 50%;
+		text-align: left;
+		margin-top: 0;
+		margin-left: 1em;
+	}
+
+	ul.mainNavigation{
+		width: 100%;
+		margin-left: 1em;
+	}
+
+	ul.mainNavigation a{
+		margin-right: 1em;
+		font-size: 1.2em;
+	}
+
+	ul.sideButtons{
+		margin-top: -3em;
+	}
+
+	.buyButton{
+		font-size: 1.1em;
+	}
 }
