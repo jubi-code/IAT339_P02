@@ -41,12 +41,6 @@ header a.navName{
 	color: #fff;
 
 	text-decoration: none;
-	-webkit-transition: color 0.5s;
-	transition: color 0.5s;
-}
-
-header a.navName:hover{
-	color: #ffe8a0;
 }
 
 header h1{
@@ -61,13 +55,20 @@ header h1{
 	max-height: 15em;
 }
 
+/*for the image links on the homepage*/
+img.interactive{
+	position: relative;
+	min-width: 100%;
+	max-height: 15em;
+}
+
 ul.mainNavigation{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	margin: 0;
 	margin-left: 5%;
-	padding-top: 1.75em;
+	padding-top: 1.5em;
 }
 
 ul.mainNavigation a{
@@ -82,7 +83,7 @@ ul.mainNavigation a{
 }
 
 ul.mainNavigation a:hover{
-	color: #ffe8a0;
+	color: #FFD54F;
 }
 
 /*for the links on the right side of the navigation bar*/
@@ -93,7 +94,7 @@ ul.sideButtons{
 	flex-wrap: wrap;
 	margin: 0;
 	right: 5%;
-	padding-top: 1.75em;
+	padding-top: 1.5em;
 }
 
 .buyButton{
@@ -108,7 +109,7 @@ ul.sideButtons{
 }
 
 .buyButton:hover{
-	color: #ffe8a0;
+	color: #FFD54F;
 }
 
 .shoppingCartButton img{
@@ -167,20 +168,6 @@ h2{
 	font-family: "Butler";
 	font-size: 1.8rem;
 	margin-top: 2rem;
-}
-
-h2.h2-alt {
-	background-color: #17283B;
-	text-transform: uppercase;
-	letter-spacing: 0.2em;
-	font-size: 1.2rem;
-	color: #ffe8a0;
-	padding: 1.2rem;
-	border-bottom: 1px solid #FFD54F;
-	text-align: center;
-	max-width: 100%;
-	margin-top: 0.75rem;
-	margin-bottom: 0.75rem;
 }
 
 
@@ -660,6 +647,20 @@ textarea{
 
 /* --- Personalize Package ---- */
 
+h2.h2-alt {
+	background-color: #282c2f;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	font-size: 1.2rem;
+	color: #ffe8a0;
+	padding: 1.2rem;
+	border-bottom: 1px solid #FFD54F;
+	text-align: center;
+	max-width: 100%;
+	margin-top: 0.75rem;
+	margin-bottom: 0.75rem;
+}
+
 /* --- Home Page -------*/
 /*for the image links on the homepage*/
 img.interactive{
@@ -672,32 +673,36 @@ img.interactive{
 	display: block;
 	position: absolute;
 	padding: 1.5em;
+	right: 44%;
+	top: 32%;
 	width: 12%;
 	left: 48%;
-	top: 59%;
 
 	text-align: center;	
 	color: white;
 }
 
-[class^='home-'] {
-	position: absolute;
-	z-index: 10;
-	color:white;
+/* 
+	Text appears while hover over image. 
+	Tutorial: http://geekgirllife.com/place-text-over-images-on-hover-without-javascript/
+*/
+
+.text-overlay .text {
+display: block;
+position:absolute;
+visibility:hidden;
+
+background-color: rgba(0,0,0,0.5);
+color: #fff;
+/*width: 100%;
+height: 37%;*/
 }
 
-h2.home-new {
-	/*top: 16%;*/
-	/*left: 52%;*/
-	font-size: 2rem;
-	font-style: italic;
+.text-overlay:hover .text {
+visibility:visible;
 }
 
-h2.home-name {
-	font-size: 4em;
-	/*left: 37%;*/
-	/*top: 18%;*/
-}
+
 
 /* ----- ABOUT US ------- */
 
