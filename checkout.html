@@ -29,13 +29,15 @@
 		<div class="grid-col-main">
 			<div class="grid-row">
 				<div class="grid-col-12of12">
-					<h2 class="justified">Shipping Order</h2>
+					<h2 class="justified">Checkout Items</h2>
+					<p class="justified">Complete the checkout process below</p>
 				</div>
 			</div>
 			<div class="grid-row-centered">
 
 				<!-- ====== SHIPPING FORM ====== -->
-				<div class="grid-col-6of12 padding-1em">
+				<div class="grid-col-6of12 padding-2em">
+					<h2 class="h2-alt">Shipping Address</h2>
 					<form method="post" action="confirmation.html" class="form-style">
 						<div class="grid-row-centered">
 							<div class="grid-col-10of12">
@@ -78,18 +80,19 @@
 								<label for="form-phone" class="justify-left">TELEPHONE</label>
 								<input type="text" id="form-phone" class="justify-left" placeholder="604-123-4567">
 							</div>
-
-							<div class="grid-row-centered padding-1em">
-							<input type="submit" value="Submit" id="checkout-btn">
-							</div>
 							</div>
 							</div>
 					</form>
+
+					<!-- SUBMIT BUTTON -->
+					<div class="grid-row-centered">
+						<input type="submit" value="Submit" id="checkout-btn">
+					</div>
 				</div><!--col-7of12-->
 
 				<!-- ======= COST SUMMARY ======= -->
-				<div class="grid-col-3of12">
-					<h4>Cost Summary</h4>
+				<div class="grid-col-3of12  padding-2em">
+					<h2 class="h2-alt">Cost Summary</h2>
 					<div class="grid-row border-thin">
 						<div class="grid-col-10of12">
 							<p>Basket Price:</p>
