@@ -129,6 +129,12 @@ footer{
 	background-color: #153559;
 }
 
+/*for the pages with less content*/
+footer.align-bottom{
+	position: absolute;
+	bottom: 0;
+}
+
 footer p{
 	color: #ffe8a0;
 	width: 50%;
