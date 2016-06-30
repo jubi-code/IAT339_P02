@@ -266,6 +266,12 @@
 	.grid-col-main{
 		max-width: 100%;
 	}
+
+	#user-review .grid-col-2of12{
+		width: 100%;
+		margin-left: 10%;
+		font-size: 1.15em;
+	}
 }
 
 @media (max-width: 30em){
