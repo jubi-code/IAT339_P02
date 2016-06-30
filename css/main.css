@@ -552,7 +552,7 @@ a.item-link, a:visited.item-link {
 
 img.productDetail-img {
 	width: 100%;
-	padding: 0em 2em 0em 2em;	
+	padding: 0em 2em 0em 0em;	
 }
 
 .btn-position {
