@@ -6,6 +6,16 @@
 	margin-top: 1rem;
 }
 
+#login .grid-col-main{
+	display: flex;
+	flex-direction: column;
+	max-width: 90%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 1rem;
+}
+
+
 #citations{
 	min-width: 100%;
 }
