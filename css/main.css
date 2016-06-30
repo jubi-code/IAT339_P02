@@ -326,12 +326,6 @@ a.buttonGroup:hover{
 	width: 100%;
 }
 
-[class^='colour']:active{
-	border-style: solid;
-	border-width: 0.5em;
-	border-color: black;
-}
-
 .colour1{
 	background-color: #153559;
 }
@@ -351,6 +345,17 @@ a.buttonGroup:hover{
 .colour5{
 	background-color: #67804A;
 }
+
+.click-toggle.on{
+	border-style: solid;
+	border-width: 0.5em;
+	border-color: black;
+}
+
+.click-toggle.off{
+	border-style: none;
+}
+
 
 input[type="submit"]{
 	background-color: #fff;
@@ -705,7 +710,8 @@ p.aboutUs-p {
 		margin-left: 0;
 		max-width: 100%;
 	}
-		.absolute-btn-position{
+
+	.absolute-btn-position{
 		left: 43%;
 		width: 40%;
 	}
