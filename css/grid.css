@@ -176,6 +176,10 @@
 		max-width: 100%;
 	}
 
+	.grid-col-11of12{
+		width: 87.5%;
+	}
+
 	#contactUs .grid-col-4of12{
 		width: 100%;
 		text-align: center;
@@ -256,10 +260,22 @@
 	.grid-col-4of12{
 		width: 100%;
 	}
-
 }
 
 @media (max-width: 35em){
 	.grid-col-main{
 		max-width: 100%;
 	}
+}
+
+@media (max-width: 30em){
+	#shoppingCart .grid-col-2of12{
+		margin-left: 1em;
+	}
+}
+
+@media (max-width: 25em){
+	#shoppingCart .grid-col-2of12{
+		margin-left: 2em;
+	}
+}
