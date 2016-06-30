@@ -248,6 +248,11 @@
 	#shoppingCart .grid-col-7of12{
 		width: 90%;
 	}
+
+	#user-review .grid-col-12of12{
+		text-align: center;
+		margin-top: 1em;
+	}
 }
 
 @media (max-width: 47.5em){
@@ -271,11 +276,6 @@
 		width: 100%;
 		margin-left: 10%;
 		font-size: 1.15em;
-	}
-
-	#user-review .grid-col-12of12{
-		text-align: center;
-		margin-top: 1em;
 	}
 }
 
