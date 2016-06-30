@@ -25,6 +25,8 @@ body{
 	src: url('font/Butler_Black.otf') format('opentype');
 }
 
+/* ----- MAIN NAV ----- */
+
 header{
 	background-color: #153559;
 	position: fixed;
@@ -55,8 +57,6 @@ header h1{
 	font-family: "Butler";
 	margin: 0;
 }
-
-/* ----- MAIN NAV ----- */
 
 ul.mainNavigation{
 	display: flex;
@@ -119,6 +119,44 @@ ul.sideButtons{
 
 .shoppingCartButton img:hover {
 	transform: scale(1.25);
+}
+
+/*  ------- FOOTER -------- */
+footer{
+	margin: 0;
+	width: 100%;
+	background-color: #153559;
+}
+
+footer p{
+	color: #ffe8a0;
+	width: 50%;
+	text-align: center;
+	font-size: 0.8em;
+}
+
+ul.footerNavigation{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 100%;
+	margin: 0;
+	padding-top: 1em;
+}
+
+ul.footerNavigation a{
+	padding: 0.5rem;
+	text-decoration: none;
+	color: #fff;
+	border-radius: 0.5rem;
+
+	-webkit-transition: color 0.5s;
+	transition: color 0.5s;
+}
+
+ul.footerNavigation a:hover{
+	color: #ffe8a0;
 }
 
 
