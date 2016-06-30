@@ -723,9 +723,6 @@ p.aboutUs-p {
 	ul.sideButtons{
 		padding-top: 0.5em;
 	}
-
-
-
 }
 
 @media (max-width: 55em){
@@ -796,7 +793,6 @@ p.aboutUs-p {
 	}
 
 	.absolute-btn-position{
-		left: 43%;
-		width: 40%;
+		width: 43%;
 	}
 }
