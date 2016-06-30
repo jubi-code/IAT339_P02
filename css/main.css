@@ -167,18 +167,17 @@ ul.footerNavigation a:hover{
 }
 
 
+/* ------ PRODUCT LISTING ------- */
+
 ul.navigation{
 	display: flex;
 	flex-direction: row;
 	list-style: none;
 	flex-wrap: wrap;
-	width: 100%;
 }
 
 ul.navigation li {
 	margin: 0;
-	margin-left: auto;
-	margin-right: auto;
 	text-align: center;	
 }
 
@@ -857,6 +856,11 @@ p.aboutUs-p {
 	.absolute-btn-position{
 		width: 43%;
 	}
+
+	ul.navigation a{
+		font-size: 1rem;
+	}
+
 }
 
 /*Mobile Landscape mode*/
