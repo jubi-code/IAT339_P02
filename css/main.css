@@ -808,12 +808,8 @@ p.aboutUs-p {
 		position: relative;
 	}
 
-	#shoppingCart .grid-col-12of12{
-		width: 70%;
-	}
-
 	#shoppingCart .grid-col-11of12{
-		width: 50%;
+		width: 60%;
 		margin-left: 25%;
 		margin-right: 1em;
 	}
@@ -871,6 +867,10 @@ p.aboutUs-p {
 
 	ul.navigation a{
 		font-size: 1rem;
+	}
+
+	#shoppingCart .grid-col-11of12{
+		width: 50%;
 	}
 }
 
