@@ -759,7 +759,6 @@ p.aboutUs-p {
 		left: 43%;
 		width: 40%;
 	}
-
 }
 
 @media (max-width: 60em){
@@ -794,7 +793,6 @@ p.aboutUs-p {
 		margin-right: 12.5%;
 		margin-left: 12.5%;
 	}
-
 }
 
 @media (max-width: 50em){
@@ -804,6 +802,10 @@ p.aboutUs-p {
 
 	form.transparent-bg{
 		padding:0.5em;
+	}
+
+	#login footer.align-bottom{
+		position: relative;
 	}
 }
 
@@ -860,7 +862,6 @@ p.aboutUs-p {
 	ul.navigation a{
 		font-size: 1rem;
 	}
-
 }
 
 /*Mobile Landscape mode*/
