@@ -211,6 +211,7 @@
 
 	#details .grid-col-3of12{
 		width: 100%;
+		justify-content: space-around;
 	}
 
 	#details .grid-col-9of12{
