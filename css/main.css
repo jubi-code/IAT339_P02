@@ -746,7 +746,9 @@ p.aboutUs-p {
 	}
 
 	img.productDetail-img {
-		width: 100%;
+		width: 75%;
+		margin-right: 12.5%;
+		margin-left: 12.5%;
 	}
 
 }
@@ -809,5 +811,29 @@ p.aboutUs-p {
 
 	.absolute-btn-position{
 		width: 43%;
+	}
+}
+
+/*Mobile Landscape mode*/
+@media screen and (orientation:landscape) and (max-width: 40em){
+	header a.navName{
+		margin-bottom: 0;
+	}
+
+	header h1{
+		font-size:1.75em;
+	}
+
+	ul.mainNavigation{
+		padding-top: 0.5em;
+	}
+	
+	ul.mainNavigation a{
+		margin-right: 1em;
+		font-size: 1em;
+	}
+
+	ul.sideButtons{
+		padding-top: 1.5em;
 	}
 }
