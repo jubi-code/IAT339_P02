@@ -34,8 +34,12 @@
 
 			<div class="grid-row-centered">
 				<div class="grid-col-12of12">
-					<img src="img/_about.jpg" alt="Wisteria perfumes" >
-					<h2 class="h2-alt">About Us</h2>
+				<picture>
+					<source media="(min-width:1200px)" srcset="img/_about.jpg 1x">
+					<source srcset="img/_about-990x495.jpg">
+					<img src="img/_about.jpg" srcset="img/_about-990x495.jpg" alt="Wisteria perfumes">
+				</picture>
+				<h2 class="h2-alt">About Us</h2>
 				</div>
 			</div>
 
