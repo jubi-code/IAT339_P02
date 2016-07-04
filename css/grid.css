@@ -161,7 +161,7 @@
 	}
 
 	#details .grid-col-2of12{
-		width: 25%;
+		width: auto;
 		margin-top: 1em;
 	}
 
@@ -262,7 +262,7 @@
 	}
 
 	#details .grid-row-right{
-		justify-content: space-between;
+		justify-content: space-around;
 	}
 }
 
@@ -293,6 +293,12 @@
 	}
 }
 
+@media (max-width: 47.5em){
+	#details .grid-col-2of12{
+		width: auto;
+		margin-top: 0;
+	}
+}
 
 @media (max-width: 40em){
 	.grid-col-4of12{
