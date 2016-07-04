@@ -162,6 +162,7 @@
 
 	#details .grid-col-2of12{
 		width: 25%;
+		margin-top: 1em;
 	}
 
 	#details .grid-row-right{
@@ -292,11 +293,6 @@
 	}
 }
 
-@media (max-width: 47.5em){
-	#details .grid-col-2of12{
-		width: 40%;
-	}
-}
 
 @media (max-width: 40em){
 	.grid-col-4of12{
