@@ -539,7 +539,7 @@ a.item-link, a:visited.item-link {
 
 /*---PRODUCT DETAILS---*/
 .padding-1em {
-	padding-top: 1em;
+	padding: 1em 0;
 }
 
 .padding-1em-left {
@@ -726,6 +726,20 @@ p.aboutUs-p {
 }
 
 /* ======= MEDIA QUERIES ======= */
+@media (max-width: 95em){
+	#home footer{
+		position: absolute;
+		bottom: 0;
+	}
+}
+
+@media (max-width: 85em){
+	footer.productListing{
+		position: absolute;
+		bottom: 0;
+	}
+}
+
 @media (max-width: 80em){
 	form {
 		width: 100%;
@@ -761,6 +775,12 @@ p.aboutUs-p {
 	}
 }
 
+@media (max-width: 75em){
+	#home footer{
+		position: relative;
+	}
+}
+
 @media (max-width: 60em){
 	ul{
 		margin-top: 1em;
@@ -780,6 +800,10 @@ p.aboutUs-p {
 
 	ul.sideButtons{
 		padding-top: 0.5em;
+	}
+
+	footer.productListing{
+		position: relative;
 	}
 }
 
@@ -871,6 +895,33 @@ p.aboutUs-p {
 
 	#shoppingCart .grid-col-11of12{
 		width: 50%;
+	}
+
+	.absolute-btn-position {
+		font-size: 0.8em;
+	}
+
+	#login input[type="submit"]{
+		font-size: 1em;
+	}
+}
+
+@media (max-width: 25em){
+	header h1{
+		font-size:2em;
+	}
+
+	ul.mainNavigation{
+		margin-left: 0.5em;
+	}
+
+	ul.mainNavigation a{
+		margin-right: 0.75em;
+		font-size: 0.9em;
+	}
+
+	ul.sideButtons{
+		margin-top: -2.5em;
 	}
 }
 

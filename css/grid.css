@@ -2,7 +2,8 @@
 	display: flex;
 	flex-direction: column;
 	max-width: 90%;
-	margin-left: 10%;
+	margin-left: 5%;
+	margin-right: 5%;
 	margin-top: 1rem;
 }
 
@@ -274,6 +275,10 @@
 @media (max-width: 40em){
 	.grid-col-4of12{
 		width: 100%;
+	}
+
+	#login .grid-col-4of12{
+		width: 50%;
 	}
 }
 
