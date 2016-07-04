@@ -1,7 +1,7 @@
 .grid-col-main{
 	display: flex;
 	flex-direction: column;
-	max-width: 90%;
+	max-width: 100%;
 	margin-left: 5%;
 	margin-right: 5%;
 	margin-top: 1rem;
@@ -16,6 +16,13 @@
 	margin-top: 1rem;
 }
 
+#shoppingCart .grid-col-main{
+	display: flex;
+	flex-direction: column;
+	max-width: 90%;
+	margin-left: 5%;
+	margin-top: 1rem;
+}
 
 #citations{
 	min-width: 100%;

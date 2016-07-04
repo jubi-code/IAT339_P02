@@ -252,6 +252,11 @@ img{
 	height: auto;
 }
 
+#engraving img{
+	min-width: 100%;
+	height: auto;
+}
+
 p, ol, ul{
 	margin: 0;
 	max-width: 65%;
