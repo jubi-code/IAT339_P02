@@ -216,7 +216,7 @@
 
 	.grid-col-9of12{
 		width: 90%;
-	}	
+	}
 
 	#contactUs .grid-col-8of12{
 		width: 100%;
@@ -240,12 +240,11 @@
 		width: 50%;
 	}
 
-	/*checkOut page specific changes*/
-
+	/*checkOut page specific changes*/	
 	#checkOut .grid-col-9of12{
 		width: 80%;
 	}
-	
+
 	#checkOut .grid-col-6of12{
 		width: 55%;
 	}
@@ -270,6 +269,11 @@
 		justify-content: space-around;
 	}
 
+	#details .grid-col-9of12{
+		width: 100%;
+		text-align: center;
+	}
+
 	#details .grid-row-right{
 		justify-content: space-around;
 	}
@@ -278,6 +282,10 @@
 @media (max-width: 50em){
 	.grid-col-6of12{
 		width: 100%;
+	}
+
+	#checkOut .grid-col-9of12{
+		width: 80%;
 	}
 
 	#checkOut .grid-col-6of12{
