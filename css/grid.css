@@ -191,11 +191,30 @@
 	.grid-col-main{
 		margin-top: 2em;
 		margin-left: 0;
+		margin-right: 0;
+		max-width: 100%;
+	}
+
+	#login .grid-col-main{
+		margin-top: 2em;
+		margin-left: 0;
+		margin-right: 0;
+		max-width: 100%;
+	}
+
+	#shoppingCart .grid-col-main{
+		margin-top: 2em;
+		margin-left: 0;
+		margin-right: 0;
 		max-width: 100%;
 	}
 
 	.grid-col-11of12{
 		width: 87.5%;
+	}
+
+	.grid-col-9of12{
+		width: 90%;
 	}
 
 	#contactUs .grid-col-4of12{
