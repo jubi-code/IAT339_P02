@@ -822,6 +822,18 @@ p.aboutUs-p {
 		margin-right: 12.5%;
 		margin-left: 12.5%;
 	}
+
+	#details h2{
+		margin-bottom: 0;
+	}
+
+	#details h3{
+		padding-bottom: 0.5em;
+	}
+
+	#user-review h3{
+		padding-bottom: 0.5em;
+	}
 }
 
 @media (max-width: 50em){
